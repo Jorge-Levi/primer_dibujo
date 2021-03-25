@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --skin: #f6c09c;
+  --background: #ed4042;
+  --red: #ed2860;
+  --dark-red: #680524;
+  --black: #00243a;
+  --white: #fff;
+}
+
+.container {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.head {
+  position: relative;
+  background-color: var(--skin);
+  width: 100px;
+  height: 150px;
+  border-radius: 45%;
+}
+
+.eyel {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 100%;
+  top: 40px;
+  left: 27px;
+}
+
+.eyer {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 100%;
+  top: 40px;
+  left: 48px;
+}
+
+.pupil {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  margin: 10px auto;
+  border-radius: 100%;
+}
+
+.nosel,
+.noser {
+  position: absolute;
+  width: 3.5px;
+  height: 3.5px;
+  background-color: black;
+  top: 75px;
+  left: 45px;
+  z-index: 100;
+  border-radius: 100%;
+}
+.noser {
+  left: 52px;
+}
+
+.mounth {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  background-color: black;
+  border-radius: 0% 0% 100% 100%;
+  top: 95px;
+  left: 25px;
+}
+
+/* .mounth2{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color:var(--skin);
+    border-radious:100%;
+  } */
